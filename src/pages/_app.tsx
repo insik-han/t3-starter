@@ -3,10 +3,10 @@ import { SessionProvider } from "next-auth/react";
 import { type AppType } from "next/app";
 
 import { Head } from "src/components/common";
+import { fontPretendard } from "src/fonts";
 import { api } from "src/utils/api";
 
 import "src/styles/globals.css";
-import { fontPretendard } from "src/fonts";
 
 const App: AppType<{ session: Session | null }> = ({
   Component,

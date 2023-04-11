@@ -48,5 +48,4 @@ export const fontPretendard = localFont({
       style: "normal",
     },
   ],
-  variable: "--font-pretendard",
 });
